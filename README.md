@@ -17,5 +17,8 @@ I was told SwiftUI and webview are not allowed, so external browsers were not a 
 I had to implement an internal browser within the app to show the url corresponding to the news selected by the user.
 The way i did it was using SFSafariServices. 
 I was able to open a safari browser within the app to show the appropriate news.
+I used MVC architecture to solve this.
 
 Now that my main functionalities were done, i had to do the finishing touches on the design and my app would be done.
+
+I also added a handler, which gives an alert if you run the app without an internet connection, it will show that you have to connect to the internet for the app to work.
